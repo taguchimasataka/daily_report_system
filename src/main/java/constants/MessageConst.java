@@ -1,11 +1,6 @@
 package constants;
 
-/**
- * 各出力メッセージを定義するEnumクラス
- *
- */
 public enum MessageConst {
-
     //認証
     I_LOGINED("ログインしました"),
     E_LOGINED("ログインに失敗しました。"),
@@ -43,4 +38,5 @@ public enum MessageConst {
     public String getMessage() {
         return this.text;
     }
+
 }
